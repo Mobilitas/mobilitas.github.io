@@ -1,0 +1,367 @@
+
+ /* !- 800 ( large portrait tablets  and large landscape phones ) */
+  @media screen and (max-width: 800px) {
+.row-fluid [class*="span"] {
+	width: 100%!important;
+	float: none!important;
+}
+.row-fluid .row-fluid .row-fluid [class*="span"] {
+	width: 50%!important;
+	float: left!important
+}
+.row-fluid .span3,
+.row-fluid .spanone_fifth,
+.row-fluid .span2 {
+	width: 50%!important;
+	float: left!important;
+}
+.row-fluid .span4,
+.row-fluid .span6,
+.row-fluid .span8,
+.row-fluid .span9,
+.row-fluid .span10,
+.row-fluid .span12 {
+	height: auto!important
+}
+.row-fluid.style2 .span6:after,
+.row-fluid.style2 .span4:before,
+.row-fluid.style2 .span4:after,
+.row-fluid.style2 .span6:before {
+	display: none!important
+}
+.row-fluid.style2 .span6 .vertical-padding-large,
+.row-fluid.style2 .span4 .vertical-padding-large {
+	padding-top: 20px!important;
+	padding-bottom: 20px!important
+}
+.row-fluid.style2 .span6:last-child,
+.row-fluid.style2 .span4:last-child {
+	margin-bottom: 40px!important
+}
+.row-fluid.style3 .span4 ,.row-fluid.style3 .span6 { border:1px solid #e5e5e5!important; margin-top:-1px!important}
+.row-fluid.style3 [class*="span"].top-row:before,
+.row-fluid.style3 [class*="span"].bottom-row:after,
+.row-fluid.style3 .border-bottom-extra,
+.row-fluid.style3 .border-top-extra,
+.row-fluid.style3 .border-bottom-left-extra,
+.row-fluid.style3 .border-top-right-extra,
+.row-fluid.style3 .border-top-left-extra,
+.row-fluid.style3 [class*="span"].border-left:not(.bottom-row):after,
+.row-fluid.style3 .border-bottom-right-extra,
+.row-fluid.style3 [class*="span"].border-right:not(.bottom-row):after {
+	display: none!important
+}
+.section.full-width-alternate.style2 .content-right .inner-content {
+	max-width: 100%;
+	padding-left: 40px;
+	padding-right: 40px
+}
+
+.section.full-width.section-bottom-padding-no {
+	display: none!important;
+}
+
+.row-fluid.style2.testimonial-grid.bottom-margin-no {
+	display: none!important;
+}
+
+#rev_slider_3_1_wrapper.rev_slider_wrapper.fullwidthbanner-container {
+	display: none!important;
+}
+
+.content-left {
+	width: 100%!important;
+}
+
+.content-right {
+	width: 100%!important;
+}
+
+.textright {
+	text-align: center!important;
+}
+
+.textleft {
+	text-align: center!important;
+}
+
+.section-with-sidebar .sidebar {
+	padding-top: 0;
+	width: 100%!important;
+	border-left: 0;
+	padding-left: 0px!important
+}
+.section-with-sidebar .sidebar .inner-content {
+	padding-left: 0!important
+}
+.section-with-sidebar .sidebar .flickr_widget a,
+.recent-works-items > a {
+	width: 80px!important
+}
+#top_bar {
+	height: auto;
+	text-align: center;
+}
+#top_bar .contact-info-container,
+#top_bar .social-icons-container {
+	width: 100%;
+	float: none;
+	clear: both;
+	margin-bottom: 5px;
+}
+#top_bar .social-icons li {
+	border: none!important;
+	margin-right: 0;
+}
+#top_bar .social-icons {
+	width: 100%;
+	float: none;
+}
+#toggle-menu {
+	display: block;
+	float: right!important;
+	width: 15%!important;
+	text-align: right;
+	margin: 2px 0px 0 20px;
+}
+#header_space {
+	height: 0;
+	display: none;
+}
+#header {
+	position: relative;
+	height: 55px;
+	overflow: hidden;
+
+}
+#main_navigation .logo-container {
+	border-right: none!important
+}
+#main_header_container .container {
+	max-width: auto;
+	padding: 0 20px;
+	background: #3A99D8 !important;
+}
+#main_navigation .logo-container {
+	width: 100% !important;
+	max-width: auto!important;
+	padding: 0!important
+}
+#main_menu,
+#header-search-button {
+	display: hidden!important;
+}
+#main_navigation #logo {
+	height: 55px;
+	line-height: 55px;
+}
+#main_navigation {
+	height: 55px;
+}
+#titlebar #breadcrumbs { margin-top:10px}
+#titlebar h1 , #titlebar #breadcrumbs { width:100%!important; text-align:left}
+.tp-caption.bg-title,
+.tp-caption.bg-title-white,
+.tp-caption.bg-subtitle,
+.tp-caption.bg-subtitle-white,
+.tp-caption.bg-buttons,
+.tp-caption.bg-buttons-white {
+	width:50%!important;
+}
+
+
+.tp-leftarrow.large,
+.tp-leftarrow.default,
+.tp-rightarrow.large,
+.tp-rightarrow.default { margin:-30px 0px 0!important}
+.full-width-carousel {
+	padding-left: 0px!important;
+	padding-right: 0px!important
+}
+.full-width-carousel .carousel-next,
+.full-width-carousel .carousel-prev {
+	display: none!important
+}
+.full-width-alternate {
+	padding-top: 0!important
+}
+#copyright .textright {
+	text-align: left!important
+}
+
+.portfolio-tabs{ margin-bottom:30px}
+.portfolio-tabs ul li { margin-left:10px; margin-bottom:10px; -webkit-border-radius:4px!important; -moz-border-radius:4px!important; border-radius:4px!important}
+
+}
+/* !- (portrait phones) */
+ @media screen and (max-width: 500px) {
+
+.row-fluid .row-fluid .row-fluid [class*="span"] {
+	width: 100%!important;
+	float: none!important
+}
+
+.row-fluid .span3,
+.row-fluid .spanone_fifth,
+.row-fluid .span2 {
+	width: 100%!important;
+	float: none!important;
+}
+.row-fluid.style3 [class*="span"]{ border:1px solid #e5e5e5!important; margin-top:-1px!important}
+.tp-caption.bg-title,
+.tp-caption.bg-title-white,
+.tp-caption.bg-subtitle,
+.tp-caption.bg-subtitle-white,
+.tp-caption.bg-buttons,
+.tp-caption.bg-buttons-white {
+	width:50%!important;
+}
+
+
+.stunning_text .big-title > div > span , .stunning_text .big-title.extra-large-text > div > span { min-width:0}
+.testimonial-grid-item .testimonial { padding-left:0}
+.testimonial-grid-item .author-avatar{ position:relative; margin-bottom:20px} 
+.row-fluid.style2 [class*="span"]:after,
+.row-fluid.style2 [class*="span"]:before {
+	display: none!important
+}
+
+
+}
+ @media screen and (max-width: 1024px) {
+.tp-caption.bg-title,
+.tp-caption.bg-title-white,
+.tp-caption.bg-subtitle,
+.tp-caption.bg-subtitle-white,
+.tp-caption.bg-buttons,
+.tp-caption.bg-buttons-white {
+	width: 512px;
+}
+}
+ @media screen and (max-width: 960px) {
+.tp-caption.bg-title,
+.tp-caption.bg-title-white,
+.tp-caption.bg-subtitle,
+.tp-caption.bg-subtitle-white,
+.tp-caption.bg-buttons,
+.tp-caption.bg-buttons-white {
+	width: 480px;
+}
+
+
+.stunning_text .big-title > div > span {
+	line-height: 125%
+}
+/* ignore br so content fit perfectly */
+.stunning_text p br {
+	display: none;
+}
+
+}
+/* !- Ipads */
+ @media (min-width: 768px) and (max-width: 979px) {
+#toggle-menu {
+	display: block;
+	float: right!important;
+	width: 15%!important;
+	text-align: right;
+	margin: 2px 0px 0 20px
+}
+#header_space {
+	height: 0;
+	display: none;
+}
+#header {
+	position: relative;
+	height: 55px;
+	overflow: hidden;
+}
+#main_navigation .logo-container {
+	border-right: none!important;
+}
+#main_header_container .container {
+	max-width: auto;
+	padding: 0 20px;
+	background: #3A99D8;
+}
+#main_navigation .logo-container {
+	width: 85%!important;
+	max-width: auto!important;
+	padding: 0!important
+}
+#main_menu,
+#header-search-button {
+	display: none!important
+}
+#main_navigation #logo {
+	height: 55px;
+	line-height: 55px
+}
+#main_navigation {
+	height: 55px
+}
+
+.row-fluid.style2.testimonial-grid.bottom-margin-no {
+	display: none!important;
+}
+
+.tp-caption.bg-title,
+.tp-caption.bg-title-white,
+.tp-caption.bg-subtitle,
+.tp-caption.bg-subtitle-white,
+.tp-caption.bg-buttons,
+.tp-caption.bg-buttons-white {
+	width: 450px;
+}
+#titlebar #breadcrumbs { margin-top:10px}
+#titlebar h1 , #titlebar #breadcrumbs { width:100%!important; text-align:left}
+}
+
+/* Buttons Resizing */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+a.button {
+	padding: 2px 8px 2px;
+	line-height: 25px !important;
+	font-size: 10px !important;
+	font-weight: normal;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none
+}
+a.readmore,
+.readmore,
+.tp-caption.bg-buttons a.readmore,
+.tp-caption.bg-buttons-white a.readmore {
+	font-size: 11px
+}
+a.readmore i,
+.readmore i,
+.tp-caption.bg-buttons a.readmore i,
+.tp-caption.bg-buttons-white a.readmore i {
+	width: 12px!important;
+	line-height: 10px!important;
+	height: 12px!important;
+	font-size: 10px!important;
+}
+
+}
+ @media only screen and (min-width: 0px) and (max-width: 479px) {
+a.button {
+	padding: 2px 5px 2px;
+	line-height: 18px !important;
+	font-size: 10px !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none
+}
+a.readmore,
+.readmore,
+.tp-caption.bg-buttons a.readmore,
+.tp-caption.bg-buttons-white a.readmore {
+	display:none!important
+}
+
+
+
+}

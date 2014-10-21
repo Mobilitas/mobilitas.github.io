@@ -1,0 +1,12 @@
+#buynow-buttons{
+    -webkit-transition: top 0.2s ease-out;
+    -moz-transition: top 0.2s ease-out;
+    -ms-transition: top 0.2s ease-out;
+    -o-transition: top 0.2s ease-out;
+    top:0;
+}
+#buynow-buttons.fixed{
+    top:80px!important;
+}
+
+.banner-showed { margin-top:80px;}
